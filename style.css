@@ -1,0 +1,93 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: #FFD900;
+    height: 118px;
+}
+
+#header img{
+    padding: 30px  0px 0px 60px
+}
+
+#container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#conteudo{
+    background-color: #514988;
+    text-align: center;
+    padding-top: 20px;
+}
+#conteudo h1{
+    color: #F3C61F;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+#conteudo p{
+    color: white;
+    padding: 15px 35px 0px 35px;
+    font-size: 20px;
+}
+
+#conteudo p:last-child{
+    padding-top: 80px;
+}
+
+#countdown {
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#maior{
+    color: #E33881;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#semana {
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+#horario {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color: rgba(81, 73, 136, 1);
+    font-size: 25px;
+    height: 90px;
+}
+
+#dias{
+    color: #F3C61F;
+    font-size: 10px;
+    margin: 15px 0px 0px 70px;
+}
+
+input{
+    background-color: rgba(81, 73, 136, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 42px;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    border: 0px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#vendas{
+    display: flex;
+    flex-direction:row;
+}
